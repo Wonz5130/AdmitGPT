@@ -4,8 +4,7 @@ from openai import OpenAI
 # 设置 OpenAI API 密钥
 client = OpenAI(
     # OpenAI 官方的 key 测试的时候用超量了，买了个 第三方服务的 key
-    api_key='sk-6J5mkJOO0t5S7PrmBfBe6e97B1774eC2B735C2AeAbAe9f6d',
-    base_url="https://dzqc.link/v1"
+    api_key='',
 )
 
 # 初始化 Flask 应用
